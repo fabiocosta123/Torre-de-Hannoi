@@ -1,3 +1,89 @@
 h1 {
     text-align: center;
 }
+
+.hannoi {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 600px;
+    width: 100%;
+    background-color: #CCF;
+    position: relative;
+}
+
+.torre {
+    position: relative;
+}
+
+.torre::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 350px;
+    bottom: 0;
+    left: 225px;
+    background: #600;
+    border-radius: 10px 10px 0 0;
+}
+
+.disco {
+    position: absolute;
+    background-color: black;
+    height: 60px;
+    width: 240px;
+    border-radius: 15px;
+    margin-left: 118px;
+    z-index: 2;
+}
+
+.d1{width: 80px; 
+    margin-left: 198px;
+    background-color: blue;
+}
+.d2 {
+    width: 120px;
+    margin-left: 180px;
+    background-color: yellow;
+}
+
+.d3 {
+    width: 150px;
+    margin-left: 165px;
+    background-color: aqua;
+}
+
+.d4{
+    width: 180px;
+    margin-left: 150px;
+    background-color: blueviolet;
+}
+.t1 {
+    left: 0;
+}
+
+.t2 {
+    left: 510px;
+}
+
+.t3{
+    left: 400px;
+}
+
+.p1 {
+    bottom: 0;
+}
+
+.p2 {
+    bottom: 60px;
+}
+
+.p3 {
+    bottom: 120px;
+}
+.p4{
+    bottom: 180px;
+}
+.p5{
+    bottom: 240px;
+}
