@@ -13,8 +13,12 @@ h1 {
 
 .torre {
     position: relative;
+    cursor: pointer;
 }
 
+.torre:hover {
+    background: #99F;
+}
 .torre::after {
     content: " ";
     display: block;
@@ -35,6 +39,8 @@ h1 {
     border-radius: 15px;
     margin-left: 118px;
     z-index: 2;
+    transition: left .2s, bottom .2s .2s;
+    pointer-events: none;
 }
 
 .d1{width: 80px; 
@@ -67,7 +73,7 @@ h1 {
 }
 
 .t3{
-    left: 400px;
+    left: 1015px;
 }
 
 .p1 {
