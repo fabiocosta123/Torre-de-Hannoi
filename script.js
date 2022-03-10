@@ -50,6 +50,10 @@ setInterval(() => {
     }
 }, 700)
 
+function jogadas(){
+    
+}
+
 
 renderizar()
  
