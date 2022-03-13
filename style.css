@@ -100,9 +100,13 @@ h1 {
 }
 
 #contador {
-    color: red;
+    color: yellow;
 }
 
 #cliques {
+    color: yellow;
+}
+
+#nome {
     color: yellow;
 }

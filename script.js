@@ -1,3 +1,5 @@
+
+
 let torres = [[5, 4, 3, 2, 1], [], []]
 let posicoes = ['p1', 'p2','p3','p4','p5','p0',
                 't1', 't2', 't3',]
@@ -6,6 +8,8 @@ let contador = 0
 let p = document.getElementById('contador')
 
 p.innerHTML = contador 
+
+
 
 
     
