@@ -1,5 +1,8 @@
+
+
 h1 {
     text-align: center;
+    color: rgb(241, 245, 10);
 }
 
 .hannoi {
@@ -7,17 +10,19 @@ h1 {
     grid-template-columns: 2fr 2fr 2fr;
     height: 450px;
     width: 100%;
-    background-color: #CCF;
+    
     position: relative;
 }
 
 .torre {
     position: relative;
     cursor: pointer;
+    
 }
 
 .torre:hover {
-    background:none;
+    background:rgb(241, 243, 241, );
+    opacity: 0.5;
 }
 .torre::after {
     content: " ";
@@ -92,4 +97,12 @@ h1 {
 }
 .p5{
     bottom: 240px;
+}
+
+#contador {
+    color: red;
+}
+
+#cliques {
+    color: yellow;
 }

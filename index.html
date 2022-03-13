@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Torre de Hannoi</title>
 </head>
-<body>
+<body background="./img/torres.jpg">
+    
     <main>
+        
         <h1>Torre de Hannoi</h1>
         
-        <h2>Números de Clicks:<p id="contador"><strong></strong></p></h2>
+        <h2 id="cliques">Números de Clicks:<p id="contador"><strong></strong></p></h2>
     </main>
     <div class="hannoi">
         <div class="disco d1  "></div>
@@ -24,6 +26,7 @@
         <div class="torre" onclick="clickTorre(1)"></div>
         <div class="torre" onclick="clickTorre(2)"></div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

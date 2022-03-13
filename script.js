@@ -55,7 +55,7 @@ setInterval(() => {
         let m = movimentos.pop()
        mover( m[0], m[1])
     }
-}, 700)
+}, 300)
 
 
 let jogadas = addEventListener('click', function(){
