@@ -26,12 +26,12 @@ h1 {
 }
 .torre::after {
     content: " ";
-    display: block;
+    display: flex;
     position: absolute;
-    width: 30px;
+    width: 40px;
     height: 350px;
     bottom: 0;
-    left: 225px;
+    left: 52%;
     background: #600;
     border-radius: 10px 10px 0 0;
 }
@@ -74,11 +74,11 @@ h1 {
 }
 
 .t2 {
-    left: 510px;
+    left: 33.5%;
 }
 
 .t3{
-    left: 1015px;
+    left: 67%;
 }
 
 .p1 {
