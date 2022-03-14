@@ -11,7 +11,6 @@ p.innerHTML = contador
 
 
 
-
     
 let movimentos = []
 function renderizar(){
@@ -71,6 +70,7 @@ let jogadas = addEventListener('click', function(){
 function recorde(){
     h2.innerHTML = jogadas
 }
+
 
 
 
